@@ -13,8 +13,9 @@ public class TypeCasting_gradesdisplay {
 
         int grade = Integer.parseInt(Grade1);
 
-        String result = (grade >= 90) ? "A" : (grade >= 80) ? "B" : (grade >= 70) ? "C" : (grade >=60) ? "D" : "F";
+        String result = (grade >= 90) ? "A" : (grade >= 80) ? "B" : (grade >= 70) ? "C" : (grade >= 60) ? "D" : "F";
         System.out.println(result);
+    }
 
     }
-}
+
